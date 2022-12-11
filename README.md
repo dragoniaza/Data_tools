@@ -24,6 +24,6 @@
 
 7.run main.py python file 
 
-``` uvicorn main:app --reload --port 5500 --host 0.0.0.0 ```
+``` <path to file>/Data_tools/apache_airflow/API/main.py ```
 
 8.you can access our api from post method on port 5500
