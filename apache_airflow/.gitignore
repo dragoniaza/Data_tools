@@ -3,3 +3,4 @@
 ./apache_airflow/plugins/__pycache__/
 ./apache_airflow/logs
 *.pyc
+*.log
