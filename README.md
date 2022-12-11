@@ -18,8 +18,12 @@
 
 ``` pip install "uvicorn[standard]" gunicorn ```
 
-6.run main.py python file 
+6.edit path for model file like
+
+``` filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model' ```
+
+7.run main.py python file 
 
 ``` uvicorn main:app --reload --port 5500 --host 0.0.0.0 ```
 
-7.you can access our api from post method on port 5500
+8.you can access our api from post method on port 5500
