@@ -5,13 +5,7 @@ import re
 import joblib
 from pythainlp import word_tokenize
 from pythainlp.corpus import thai_stopwords
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
-from sklearn.linear_model import SGDClassifier
-from sklearn import svm
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_auc_score, make_scorer, accuracy_score,confusion_matrix, plot_roc_curve
 
 
