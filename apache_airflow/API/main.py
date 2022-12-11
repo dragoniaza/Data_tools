@@ -2,14 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from typing import Optional
 from pydantic import BaseModel
-import pandas as pd
-import pythainlp
-from pythainlp import word_tokenize
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
-from sklearn.linear_model import SGDClassifier
+from sklearn.ensemble import RandomForestClassifier
 import TraffyFondue_Model
 from TraffyFondue_Model import TraffyFondueModel
 
@@ -31,13 +24,10 @@ async def root():
 
 @app.post("/predict")
 async def predict(item: Item):
-    print("start predict")
     logistic_model = RandomForestClassifier(random_state = 42)
     traffy = TraffyFondueModel(logistic_model, item)
     preprocess = traffy.import_data()
     trained_model = traffy.train_Model(preprocess)
-    print(type(trained_model))
-    print(trained_model)
     response = {"type":trained_model[0]}
     return response
 
