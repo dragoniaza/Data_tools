@@ -14,6 +14,12 @@
 
 ``` pip -r requirements.txt ```
 
-5.run main.py python file 
+5.install uvicorn with command
 
-6.you can access our api from post method on port 5500
+``` pip install "uvicorn[standard]" gunicorn ```
+
+6.run main.py python file 
+
+``` python main.py ```
+
+7.you can access our api from post method on port 5500
