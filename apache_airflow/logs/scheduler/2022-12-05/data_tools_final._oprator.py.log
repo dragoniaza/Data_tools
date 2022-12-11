@@ -1,0 +1,2116 @@
+[2022-12-05T00:11:02.788+0000] {processor.py:154} INFO - Started process (PID=7692) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T00:11:02.791+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T00:11:02.793+0000] {logging_mixin.py:137} INFO - [2022-12-05T00:11:02.793+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T00:11:03.525+0000] {logging_mixin.py:137} INFO - [2022-12-05T00:11:03.511+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T00:11:03.528+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T00:11:03.697+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.921 seconds
+[2022-12-05T01:04:49.271+0000] {processor.py:154} INFO - Started process (PID=7722) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T01:04:49.273+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T01:04:49.274+0000] {logging_mixin.py:137} INFO - [2022-12-05T01:04:49.274+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T01:04:49.451+0000] {logging_mixin.py:137} INFO - [2022-12-05T01:04:49.447+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T01:04:49.452+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T01:04:49.475+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.206 seconds
+[2022-12-05T02:43:49.012+0000] {processor.py:154} INFO - Started process (PID=7754) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T02:43:49.018+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T02:43:49.020+0000] {logging_mixin.py:137} INFO - [2022-12-05T02:43:49.020+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T02:43:49.384+0000] {logging_mixin.py:137} INFO - [2022-12-05T02:43:49.376+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T02:43:49.386+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T02:43:49.428+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.419 seconds
+[2022-12-05T04:00:20.147+0000] {processor.py:154} INFO - Started process (PID=7788) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T04:00:20.149+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T04:00:20.151+0000] {logging_mixin.py:137} INFO - [2022-12-05T04:00:20.151+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T04:00:20.466+0000] {logging_mixin.py:137} INFO - [2022-12-05T04:00:20.460+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T04:00:20.468+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T04:00:20.486+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.342 seconds
+[2022-12-05T05:19:34.390+0000] {processor.py:154} INFO - Started process (PID=7820) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T05:19:34.393+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T05:19:34.394+0000] {logging_mixin.py:137} INFO - [2022-12-05T05:19:34.394+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T05:19:34.555+0000] {logging_mixin.py:137} INFO - [2022-12-05T05:19:34.551+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T05:19:34.556+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T05:19:34.569+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.183 seconds
+[2022-12-05T06:40:28.757+0000] {processor.py:154} INFO - Started process (PID=7849) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:40:28.760+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:40:28.762+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:40:28.762+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:40:29.595+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:40:29.575+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:40:29.603+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:40:29.634+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.883 seconds
+[2022-12-05T06:43:35.659+0000] {processor.py:154} INFO - Started process (PID=7877) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:43:35.664+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:43:35.670+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:43:35.670+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:43:36.028+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:43:36.019+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:43:36.029+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:43:36.057+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.411 seconds
+[2022-12-05T06:44:06.712+0000] {processor.py:154} INFO - Started process (PID=7912) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:44:06.715+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:44:06.717+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:44:06.717+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:44:06.941+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:44:06.935+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:44:06.941+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:44:06.958+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.251 seconds
+[2022-12-05T06:46:03.487+0000] {processor.py:154} INFO - Started process (PID=33) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:03.499+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:46:03.505+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:46:03.505+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:04.279+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:46:04.269+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:46:04.281+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:04.304+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.820 seconds
+[2022-12-05T06:46:34.879+0000] {processor.py:154} INFO - Started process (PID=67) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:34.882+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:46:34.884+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:46:34.884+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:35.042+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:46:35.038+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:46:35.043+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:46:35.059+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.185 seconds
+[2022-12-05T06:47:05.552+0000] {processor.py:154} INFO - Started process (PID=101) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:05.560+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:47:05.579+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:47:05.579+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:05.753+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:47:05.748+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:47:05.754+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:05.770+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.222 seconds
+[2022-12-05T06:47:36.199+0000] {processor.py:154} INFO - Started process (PID=134) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:36.201+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:47:36.203+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:47:36.203+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:36.351+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:47:36.348+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:47:36.352+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:47:36.364+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.168 seconds
+[2022-12-05T06:48:06.861+0000] {processor.py:154} INFO - Started process (PID=168) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:06.863+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:48:06.864+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:48:06.864+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:07.248+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:48:07.244+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:48:07.249+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:07.261+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.403 seconds
+[2022-12-05T06:48:37.660+0000] {processor.py:154} INFO - Started process (PID=193) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:37.663+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:48:37.666+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:48:37.665+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:37.850+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:48:37.845+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:48:37.853+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:48:37.868+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.213 seconds
+[2022-12-05T06:49:08.466+0000] {processor.py:154} INFO - Started process (PID=228) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:08.468+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:49:08.470+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:49:08.470+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:08.625+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:49:08.621+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:49:08.625+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:08.649+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.190 seconds
+[2022-12-05T06:49:39.126+0000] {processor.py:154} INFO - Started process (PID=262) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:39.129+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:49:39.131+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:49:39.131+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:39.305+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:49:39.301+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:49:39.306+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:49:39.318+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.198 seconds
+[2022-12-05T06:50:09.665+0000] {processor.py:154} INFO - Started process (PID=296) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:09.666+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:50:09.667+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:50:09.667+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:09.820+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:50:09.816+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:50:09.822+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:09.833+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.170 seconds
+[2022-12-05T06:50:40.192+0000] {processor.py:154} INFO - Started process (PID=329) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:40.194+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:50:40.195+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:50:40.195+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:40.341+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:50:40.338+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:50:40.342+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:50:40.354+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.165 seconds
+[2022-12-05T06:51:10.856+0000] {processor.py:154} INFO - Started process (PID=365) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:10.858+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:51:10.859+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:51:10.859+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:11.052+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:51:11.048+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:51:11.053+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:11.072+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.219 seconds
+[2022-12-05T06:51:41.601+0000] {processor.py:154} INFO - Started process (PID=390) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:41.605+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:51:41.609+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:51:41.609+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:41.825+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:51:41.822+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:51:41.826+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:51:41.840+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.245 seconds
+[2022-12-05T06:52:12.188+0000] {processor.py:154} INFO - Started process (PID=424) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:12.190+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:52:12.192+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:52:12.192+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:12.398+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:52:12.392+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:52:12.399+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:12.416+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.233 seconds
+[2022-12-05T06:52:42.883+0000] {processor.py:154} INFO - Started process (PID=458) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:42.886+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:52:42.888+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:52:42.888+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:43.045+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:52:43.041+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:52:43.046+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:52:43.058+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T06:53:13.485+0000] {processor.py:154} INFO - Started process (PID=493) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:13.489+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:53:13.493+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:53:13.493+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:13.655+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:53:13.651+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:53:13.656+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:13.669+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.194 seconds
+[2022-12-05T06:53:44.227+0000] {processor.py:154} INFO - Started process (PID=527) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:44.230+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:53:44.233+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:53:44.233+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:44.389+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:53:44.384+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:53:44.390+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:53:44.401+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.182 seconds
+[2022-12-05T06:54:14.824+0000] {processor.py:154} INFO - Started process (PID=560) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:14.829+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:54:14.832+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:54:14.832+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:14.996+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:54:14.992+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:54:14.997+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:15.010+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.192 seconds
+[2022-12-05T06:54:45.459+0000] {processor.py:154} INFO - Started process (PID=594) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:45.463+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:54:45.464+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:54:45.464+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:45.898+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:54:45.887+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:54:45.900+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:54:45.918+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.461 seconds
+[2022-12-05T06:55:16.461+0000] {processor.py:154} INFO - Started process (PID=618) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:16.466+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:55:16.468+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:55:16.468+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:16.653+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:55:16.648+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:55:16.654+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:16.667+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.211 seconds
+[2022-12-05T06:55:47.120+0000] {processor.py:154} INFO - Started process (PID=652) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:47.124+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:55:47.126+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:55:47.125+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:47.301+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:55:47.295+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:55:47.303+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:55:47.318+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.202 seconds
+[2022-12-05T06:56:17.839+0000] {processor.py:154} INFO - Started process (PID=686) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:17.842+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:56:17.844+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:56:17.844+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:18.004+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:56:18.000+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:56:18.006+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:18.018+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.186 seconds
+[2022-12-05T06:56:48.406+0000] {processor.py:154} INFO - Started process (PID=720) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:48.410+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:56:48.411+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:56:48.411+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:48.577+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:56:48.574+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:56:48.578+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:56:48.590+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.190 seconds
+[2022-12-05T06:57:19.008+0000] {processor.py:154} INFO - Started process (PID=755) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:57:19.010+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T06:57:19.013+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:57:19.013+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:57:19.170+0000] {logging_mixin.py:137} INFO - [2022-12-05T06:57:19.166+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T06:57:19.171+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T06:57:19.183+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T07:00:22.455+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:22.458+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:00:22.459+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:00:22.459+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:23.324+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:00:23.308+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:00:23.327+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:23.355+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.904 seconds
+[2022-12-05T07:00:53.820+0000] {processor.py:154} INFO - Started process (PID=78) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:53.823+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:00:53.826+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:00:53.826+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:53.991+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:00:53.987+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:00:53.992+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:00:54.013+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.198 seconds
+[2022-12-05T07:01:24.479+0000] {processor.py:154} INFO - Started process (PID=114) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:24.481+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:01:24.483+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:01:24.483+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:24.653+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:01:24.648+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:01:24.654+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:24.677+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.200 seconds
+[2022-12-05T07:01:55.300+0000] {processor.py:154} INFO - Started process (PID=139) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:55.304+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:01:55.307+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:01:55.306+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:55.472+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:01:55.469+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:01:55.473+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:01:55.485+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.192 seconds
+[2022-12-05T07:02:25.931+0000] {processor.py:154} INFO - Started process (PID=173) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:25.933+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:02:25.935+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:02:25.935+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:26.086+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:02:26.082+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:02:26.088+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:26.100+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.173 seconds
+[2022-12-05T07:02:56.587+0000] {processor.py:154} INFO - Started process (PID=208) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:56.589+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:02:56.592+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:02:56.592+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:56.751+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:02:56.747+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:02:56.752+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:02:56.765+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.184 seconds
+[2022-12-05T07:03:27.224+0000] {processor.py:154} INFO - Started process (PID=242) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:27.226+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:03:27.228+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:03:27.227+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:27.381+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:03:27.378+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:03:27.382+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:27.394+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.175 seconds
+[2022-12-05T07:03:57.802+0000] {processor.py:154} INFO - Started process (PID=273) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:57.804+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:03:57.806+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:03:57.806+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:57.953+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:03:57.950+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:03:57.955+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:03:57.967+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.167 seconds
+[2022-12-05T07:04:28.416+0000] {processor.py:154} INFO - Started process (PID=307) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:28.419+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:04:28.421+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:04:28.421+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:28.625+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:04:28.621+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:04:28.626+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:28.639+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.228 seconds
+[2022-12-05T07:04:59.153+0000] {processor.py:154} INFO - Started process (PID=332) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:59.156+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:04:59.158+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:04:59.158+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:59.338+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:04:59.332+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:04:59.340+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:04:59.363+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.214 seconds
+[2022-12-05T07:05:29.912+0000] {processor.py:154} INFO - Started process (PID=366) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:05:29.916+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:05:29.917+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:05:29.917+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:05:30.086+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:05:30.082+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:05:30.087+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:05:30.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.194 seconds
+[2022-12-05T07:06:00.598+0000] {processor.py:154} INFO - Started process (PID=399) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:00.600+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:06:00.602+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:06:00.601+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:00.747+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:06:00.743+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:06:00.748+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:00.759+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.164 seconds
+[2022-12-05T07:06:31.261+0000] {processor.py:154} INFO - Started process (PID=433) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:31.262+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:06:31.263+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:06:31.263+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:31.408+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:06:31.404+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:06:31.409+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:06:31.421+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.162 seconds
+[2022-12-05T07:07:01.968+0000] {processor.py:154} INFO - Started process (PID=466) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:01.971+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:07:01.974+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:07:01.973+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:02.127+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:07:02.123+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:07:02.127+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:02.139+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.179 seconds
+[2022-12-05T07:07:32.680+0000] {processor.py:154} INFO - Started process (PID=501) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:32.682+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:07:32.683+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:07:32.683+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:32.888+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:07:32.883+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:07:32.890+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:07:32.907+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.229 seconds
+[2022-12-05T07:08:03.374+0000] {processor.py:154} INFO - Started process (PID=534) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:03.377+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:08:03.378+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:08:03.378+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:03.533+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:08:03.530+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:08:03.534+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:03.546+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.177 seconds
+[2022-12-05T07:08:34.057+0000] {processor.py:154} INFO - Started process (PID=559) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:34.062+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:08:34.065+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:08:34.065+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:34.243+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:08:34.240+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:08:34.244+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:08:34.263+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.212 seconds
+[2022-12-05T07:09:04.845+0000] {processor.py:154} INFO - Started process (PID=592) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:04.847+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:09:04.849+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:09:04.849+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:04.999+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:09:04.995+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:09:05.000+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:05.012+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.173 seconds
+[2022-12-05T07:09:35.494+0000] {processor.py:154} INFO - Started process (PID=627) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:35.497+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:09:35.500+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:09:35.500+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:35.657+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:09:35.653+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:09:35.658+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:09:35.670+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.180 seconds
+[2022-12-05T07:10:06.217+0000] {processor.py:154} INFO - Started process (PID=661) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:06.218+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:10:06.220+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:10:06.220+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:06.374+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:10:06.371+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:10:06.375+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:06.390+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.177 seconds
+[2022-12-05T07:10:36.907+0000] {processor.py:154} INFO - Started process (PID=697) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:36.909+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:10:36.910+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:10:36.910+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:37.071+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:10:37.066+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:10:37.072+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:10:37.083+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T07:11:07.606+0000] {processor.py:154} INFO - Started process (PID=732) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:07.609+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:11:07.612+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:11:07.612+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:07.782+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:11:07.777+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:11:07.783+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:07.796+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.196 seconds
+[2022-12-05T07:11:38.377+0000] {processor.py:154} INFO - Started process (PID=766) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:38.381+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:11:38.383+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:11:38.383+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:38.537+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:11:38.533+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:11:38.538+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:11:38.551+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T07:12:09.084+0000] {processor.py:154} INFO - Started process (PID=791) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:09.086+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:12:09.089+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:12:09.089+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:09.256+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:12:09.252+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:12:09.258+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:09.275+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.200 seconds
+[2022-12-05T07:12:39.938+0000] {processor.py:154} INFO - Started process (PID=823) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:39.940+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:12:39.942+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:12:39.942+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:40.098+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:12:40.095+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:12:40.100+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:12:40.111+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.180 seconds
+[2022-12-05T07:13:10.641+0000] {processor.py:154} INFO - Started process (PID=856) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:10.644+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:13:10.646+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:13:10.645+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:10.801+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:13:10.798+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:13:10.802+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:10.814+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.179 seconds
+[2022-12-05T07:13:41.267+0000] {processor.py:154} INFO - Started process (PID=888) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:41.270+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:13:41.271+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:13:41.271+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:41.432+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:13:41.428+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:13:41.433+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:13:41.445+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.183 seconds
+[2022-12-05T07:14:11.901+0000] {processor.py:154} INFO - Started process (PID=922) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:11.903+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:14:11.905+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:14:11.905+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:12.061+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:14:12.056+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:14:12.063+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:12.075+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.180 seconds
+[2022-12-05T07:14:42.582+0000] {processor.py:154} INFO - Started process (PID=957) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:42.585+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:14:42.586+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:14:42.586+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:42.738+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:14:42.734+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:14:42.739+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:14:42.751+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.175 seconds
+[2022-12-05T07:15:13.309+0000] {processor.py:154} INFO - Started process (PID=991) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:13.312+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:15:13.314+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:15:13.314+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:13.469+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:15:13.466+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:15:13.470+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:13.482+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T07:15:44.055+0000] {processor.py:154} INFO - Started process (PID=1022) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:44.056+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:15:44.058+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:15:44.058+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:44.248+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:15:44.244+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:15:44.249+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:15:44.261+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.209 seconds
+[2022-12-05T07:16:14.822+0000] {processor.py:154} INFO - Started process (PID=1049) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:14.824+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:16:14.826+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:16:14.826+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:15.029+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:16:15.024+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:16:15.030+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:15.045+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.228 seconds
+[2022-12-05T07:16:45.569+0000] {processor.py:154} INFO - Started process (PID=1081) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:45.572+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:16:45.574+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:16:45.574+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:45.731+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:16:45.728+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:16:45.732+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:16:45.744+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.180 seconds
+[2022-12-05T07:17:16.267+0000] {processor.py:154} INFO - Started process (PID=1115) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:16.270+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:17:16.273+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:17:16.273+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:16.440+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:17:16.434+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:17:16.443+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:16.473+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.212 seconds
+[2022-12-05T07:17:47.056+0000] {processor.py:154} INFO - Started process (PID=1147) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:47.058+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:17:47.059+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:17:47.059+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:47.224+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:17:47.220+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:17:47.229+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:17:47.247+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.193 seconds
+[2022-12-05T07:18:17.702+0000] {processor.py:154} INFO - Started process (PID=1182) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:18:17.704+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:18:17.705+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:18:17.705+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:18:17.848+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:18:17.845+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:18:17.849+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:18:17.861+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.161 seconds
+[2022-12-05T07:19:03.403+0000] {processor.py:154} INFO - Started process (PID=33) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:03.406+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:19:03.408+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:19:03.408+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:03.605+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:19:03.599+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:19:03.607+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:03.638+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.237 seconds
+[2022-12-05T07:19:34.458+0000] {processor.py:154} INFO - Started process (PID=69) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:34.459+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:19:34.462+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:19:34.462+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:34.676+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:19:34.671+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:19:34.678+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:19:34.699+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.244 seconds
+[2022-12-05T07:20:05.086+0000] {processor.py:154} INFO - Started process (PID=103) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:05.087+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:20:05.088+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:20:05.088+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:05.236+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:20:05.233+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:20:05.239+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:05.254+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.170 seconds
+[2022-12-05T07:20:35.780+0000] {processor.py:154} INFO - Started process (PID=127) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:35.782+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:20:35.783+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:20:35.783+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:35.993+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:20:35.987+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:20:35.994+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:20:36.015+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.238 seconds
+[2022-12-05T07:21:06.496+0000] {processor.py:154} INFO - Started process (PID=161) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:06.498+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:21:06.501+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:21:06.501+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:06.652+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:21:06.648+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:21:06.653+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:06.669+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.175 seconds
+[2022-12-05T07:21:37.068+0000] {processor.py:154} INFO - Started process (PID=194) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:37.071+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:21:37.073+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:21:37.073+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:37.231+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:21:37.226+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 5, in <module>
+    import pythainlp
+ModuleNotFoundError: No module named 'pythainlp'
+[2022-12-05T07:21:37.231+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:21:37.246+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.181 seconds
+[2022-12-05T07:22:10.959+0000] {processor.py:154} INFO - Started process (PID=34) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:10.961+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:22:10.962+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:22:10.962+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:13.953+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:22:13.948+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 7, in <module>
+    from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+ModuleNotFoundError: No module named 'sklearn'
+[2022-12-05T07:22:13.954+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:13.966+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 3.011 seconds
+[2022-12-05T07:22:44.482+0000] {processor.py:154} INFO - Started process (PID=73) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:44.485+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:22:44.488+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:22:44.488+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:46.343+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:22:46.339+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 7, in <module>
+    from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+ModuleNotFoundError: No module named 'sklearn'
+[2022-12-05T07:22:46.345+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:22:46.356+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.879 seconds
+[2022-12-05T07:23:17.035+0000] {processor.py:154} INFO - Started process (PID=107) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:17.039+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:23:17.042+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:23:17.042+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:18.896+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:23:18.892+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 7, in <module>
+    from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+ModuleNotFoundError: No module named 'sklearn'
+[2022-12-05T07:23:18.897+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:18.908+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.879 seconds
+[2022-12-05T07:23:49.358+0000] {processor.py:154} INFO - Started process (PID=141) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:49.361+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:23:49.363+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:23:49.363+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:51.254+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:23:51.251+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 7, in <module>
+    from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+ModuleNotFoundError: No module named 'sklearn'
+[2022-12-05T07:23:51.256+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:23:51.266+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.910 seconds
+[2022-12-05T07:24:21.821+0000] {processor.py:154} INFO - Started process (PID=175) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:21.824+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:24:21.825+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:24:21.825+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:24.093+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:24:24.088+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 13, in <module>
+    import datatool_model as da
+  File "/opt/airflow/plugins/datatool_model.py", line 7, in <module>
+    from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+ModuleNotFoundError: No module named 'sklearn'
+[2022-12-05T07:24:24.094+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:24.106+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.288 seconds
+[2022-12-05T07:24:45.193+0000] {processor.py:154} INFO - Started process (PID=34) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:45.195+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:24:45.202+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:24:45.197+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:50.827+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:24:56.513+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:24:56.515+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9846
+[2022-12-05T07:24:56.516+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.6897
+[2022-12-05T07:24:56.518+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6834
+[2022-12-05T07:24:56.519+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'คลอง' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'กีดขวาง' 'ท่อระบายน้ำ' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ถนน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ทางเท้า' 'ถนน' 'น้ำท่วม' 'จราจร' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด'
+ 'ต้นไม้' 'สัตว์จรจัด' 'กีดขวาง' 'ความสะอาด' 'จราจร' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ป้าย' 'สายไฟ' 'ต้นไม้' 'แสงสว่าง'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'จราจร' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน'
+ 'ทางเท้า' 'ทางเท้า' 'ความปลอดภัย' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ถนน' 'ความสะอาด' 'แสงสว่าง' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ป้าย' 'จราจร' 'ต้นไม้' 'ความสะอาด' 'ป้าย' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ถนน' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ท่อระบายน้ำ' 'น้ำท่วม' 'ป้าย' 'กีดขวาง' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ป้าย'
+ 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ป้าย' 'ถนน' 'จราจร' 'ความสะอาด' 'ทางเท้า'
+ 'ทางเท้า' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า'
+ 'ความสะอาด' 'ต้นไม้' 'กีดขวาง' 'ความสะอาด' 'ต้นไม้' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'ป้าย' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม'
+ 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'สายไฟ' 'ป้าย' 'ความปลอดภัย' 'ต้นไม้' 'ถนน'
+ 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ถนน' 'กีดขวาง' 'น้ำท่วม' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด'
+ 'จราจร' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ถนน' 'ร้องเรียน' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'กีดขวาง'
+ 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด'
+ 'ความสะอาด' 'ต้นไม้' 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'ความปลอดภัย' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้'
+ 'ท่อระบายน้ำ' 'สัตว์จรจัด' 'ถนน' 'ถนน' 'น้ำท่วม' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความปลอดภัย' 'ความสะอาด'
+ 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'กีดขวาง' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'กีดขวาง' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ถนน'
+ 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม'
+ 'ความสะอาด' 'ทางเท้า' 'กีดขวาง' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ทางเท้า' 'ท่อระบายน้ำ' 'ต้นไม้' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน'
+ 'ถนน' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ต้นไม้' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'ป้าย' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ป้าย' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย'
+ 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'จราจร' 'สายไฟ' 'จราจร' 'ป้าย'
+ 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้'
+ 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ถนน']
+[2022-12-05T07:24:56.625+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:24:56.666+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:24:56.666+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:24:56.683+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:24:56.683+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-04T00:00:00+00:00, run_after=2022-12-05T00:00:00+00:00
+[2022-12-05T07:24:56.702+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 11.511 seconds
+[2022-12-05T07:25:27.238+0000] {processor.py:154} INFO - Started process (PID=84) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:25:27.241+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:25:27.243+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:25:27.243+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:25:31.297+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:25:36.520+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:25:36.522+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9846
+[2022-12-05T07:25:36.523+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.6897
+[2022-12-05T07:25:36.524+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6834
+[2022-12-05T07:25:36.526+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'คลอง' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'กีดขวาง' 'ท่อระบายน้ำ' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ถนน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ทางเท้า' 'ถนน' 'น้ำท่วม' 'จราจร' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด'
+ 'ต้นไม้' 'สัตว์จรจัด' 'กีดขวาง' 'ความสะอาด' 'จราจร' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ป้าย' 'สายไฟ' 'ต้นไม้' 'แสงสว่าง'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'จราจร' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน'
+ 'ทางเท้า' 'ทางเท้า' 'ความปลอดภัย' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ถนน' 'ความสะอาด' 'แสงสว่าง' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ป้าย' 'จราจร' 'ต้นไม้' 'ความสะอาด' 'ป้าย' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ถนน' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ท่อระบายน้ำ' 'น้ำท่วม' 'ป้าย' 'กีดขวาง' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ป้าย'
+ 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ป้าย' 'ถนน' 'จราจร' 'ความสะอาด' 'ทางเท้า'
+ 'ทางเท้า' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า'
+ 'ความสะอาด' 'ต้นไม้' 'กีดขวาง' 'ความสะอาด' 'ต้นไม้' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'ป้าย' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม'
+ 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'สายไฟ' 'ป้าย' 'ความปลอดภัย' 'ต้นไม้' 'ถนน'
+ 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ถนน' 'กีดขวาง' 'น้ำท่วม' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด'
+ 'จราจร' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ถนน' 'ร้องเรียน' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'กีดขวาง'
+ 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด'
+ 'ความสะอาด' 'ต้นไม้' 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'ความปลอดภัย' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้'
+ 'ท่อระบายน้ำ' 'สัตว์จรจัด' 'ถนน' 'ถนน' 'น้ำท่วม' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความปลอดภัย' 'ความสะอาด'
+ 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'กีดขวาง' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'กีดขวาง' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ถนน'
+ 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม'
+ 'ความสะอาด' 'ทางเท้า' 'กีดขวาง' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ทางเท้า' 'ท่อระบายน้ำ' 'ต้นไม้' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน'
+ 'ถนน' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ต้นไม้' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'ป้าย' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ป้าย' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย'
+ 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'จราจร' 'สายไฟ' 'จราจร' 'ป้าย'
+ 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้'
+ 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ถนน']
+[2022-12-05T07:25:36.574+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:25:36.587+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:25:36.587+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:25:36.600+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:25:36.600+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:25:36.609+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 9.374 seconds
+[2022-12-05T07:26:06.754+0000] {processor.py:154} INFO - Started process (PID=131) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:06.756+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:26:06.757+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:06.757+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:10.411+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:26:15.410+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:26:15.412+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9846
+[2022-12-05T07:26:15.414+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.6897
+[2022-12-05T07:26:15.415+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6834
+[2022-12-05T07:26:15.418+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'คลอง' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'กีดขวาง' 'ท่อระบายน้ำ' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ถนน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ทางเท้า' 'ถนน' 'น้ำท่วม' 'จราจร' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด'
+ 'ต้นไม้' 'สัตว์จรจัด' 'กีดขวาง' 'ความสะอาด' 'จราจร' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ป้าย' 'สายไฟ' 'ต้นไม้' 'แสงสว่าง'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'จราจร' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน'
+ 'ทางเท้า' 'ทางเท้า' 'ความปลอดภัย' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ถนน' 'ความสะอาด' 'แสงสว่าง' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ป้าย' 'จราจร' 'ต้นไม้' 'ความสะอาด' 'ป้าย' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ถนน' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ท่อระบายน้ำ' 'น้ำท่วม' 'ป้าย' 'กีดขวาง' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ป้าย'
+ 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ป้าย' 'ถนน' 'จราจร' 'ความสะอาด' 'ทางเท้า'
+ 'ทางเท้า' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า'
+ 'ความสะอาด' 'ต้นไม้' 'กีดขวาง' 'ความสะอาด' 'ต้นไม้' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'ป้าย' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม'
+ 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'สายไฟ' 'ป้าย' 'ความปลอดภัย' 'ต้นไม้' 'ถนน'
+ 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ถนน' 'กีดขวาง' 'น้ำท่วม' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด'
+ 'จราจร' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ถนน' 'ร้องเรียน' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'กีดขวาง'
+ 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด'
+ 'ความสะอาด' 'ต้นไม้' 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'ความปลอดภัย' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้'
+ 'ท่อระบายน้ำ' 'สัตว์จรจัด' 'ถนน' 'ถนน' 'น้ำท่วม' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความปลอดภัย' 'ความสะอาด'
+ 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'กีดขวาง' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'กีดขวาง' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ถนน'
+ 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม'
+ 'ความสะอาด' 'ทางเท้า' 'กีดขวาง' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ทางเท้า' 'ท่อระบายน้ำ' 'ต้นไม้' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน'
+ 'ถนน' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ต้นไม้' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'ป้าย' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ป้าย' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย'
+ 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'จราจร' 'สายไฟ' 'จราจร' 'ป้าย'
+ 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้'
+ 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ถนน']
+[2022-12-05T07:26:15.463+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:15.478+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:15.478+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:26:15.492+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:15.492+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:26:15.502+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 8.750 seconds
+[2022-12-05T07:26:46.168+0000] {processor.py:154} INFO - Started process (PID=168) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:46.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:26:46.171+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:46.171+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:50.097+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:26:55.148+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:26:55.149+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9846
+[2022-12-05T07:26:55.150+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.6897
+[2022-12-05T07:26:55.153+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6834
+[2022-12-05T07:26:55.155+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'คลอง' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'กีดขวาง' 'ท่อระบายน้ำ' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ถนน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ทางเท้า' 'ถนน' 'น้ำท่วม' 'จราจร' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด'
+ 'ต้นไม้' 'สัตว์จรจัด' 'กีดขวาง' 'ความสะอาด' 'จราจร' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ป้าย' 'สายไฟ' 'ต้นไม้' 'แสงสว่าง'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'จราจร' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน'
+ 'ทางเท้า' 'ทางเท้า' 'ความปลอดภัย' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'กีดขวาง' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ถนน' 'ความสะอาด' 'แสงสว่าง' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ป้าย' 'จราจร' 'ต้นไม้' 'ความสะอาด' 'ป้าย' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ถนน' 'ความปลอดภัย'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ถนน' 'ท่อระบายน้ำ' 'น้ำท่วม' 'ป้าย' 'กีดขวาง' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด' 'ถนน'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ป้าย'
+ 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ป้าย' 'ถนน' 'จราจร' 'ความสะอาด' 'ทางเท้า'
+ 'ทางเท้า' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ทางเท้า'
+ 'ความสะอาด' 'ต้นไม้' 'กีดขวาง' 'ความสะอาด' 'ต้นไม้' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'ป้าย' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม'
+ 'ความสะอาด' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'สายไฟ' 'ป้าย' 'ความปลอดภัย' 'ต้นไม้' 'ถนน'
+ 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ถนน' 'กีดขวาง' 'น้ำท่วม' 'ถนน'
+ 'ทางเท้า' 'ป้าย' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด'
+ 'จราจร' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ถนน' 'ร้องเรียน' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'กีดขวาง'
+ 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด'
+ 'ความสะอาด' 'ต้นไม้' 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'ความปลอดภัย' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้'
+ 'ท่อระบายน้ำ' 'สัตว์จรจัด' 'ถนน' 'ถนน' 'น้ำท่วม' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ความปลอดภัย' 'ความสะอาด'
+ 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'กีดขวาง' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'กีดขวาง' 'ถนน' 'ถนน'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ถนน'
+ 'ความสะอาด' 'เสียงรบกวน' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม'
+ 'ความสะอาด' 'ทางเท้า' 'กีดขวาง' 'ท่อระบายน้ำ' 'ถนน' 'เสียงรบกวน'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด'
+ 'ทางเท้า' 'ท่อระบายน้ำ' 'ต้นไม้' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน'
+ 'ถนน' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ต้นไม้' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ' 'ถนน' 'ป้าย' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ป้าย' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ป้าย'
+ 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'จราจร' 'สายไฟ' 'จราจร' 'ป้าย'
+ 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้'
+ 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ถนน']
+[2022-12-05T07:26:55.203+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:26:55.220+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:55.219+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:26:55.237+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:26:55.236+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:26:55.247+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 9.081 seconds
+[2022-12-05T07:27:25.957+0000] {processor.py:154} INFO - Started process (PID=220) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:27:25.961+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:27:25.962+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:27:25.962+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:27:29.641+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:27:34.745+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:27:34.746+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9878
+[2022-12-05T07:27:34.747+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.671
+[2022-12-05T07:27:34.748+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6868
+[2022-12-05T07:27:34.750+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'สายไฟ' 'ความปลอดภัย' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'สายไฟ' 'ท่อระบายน้ำ' 'จราจร'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด' 'ต้นไม้' 'ความสะอาด' 'ป้าย'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ถนน' 'แสงสว่าง' 'ทางเท้า' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ป้าย'
+ 'ถนน' 'กีดขวาง' 'ถนน' 'ความสะอาด' 'ถนน' 'ป้าย' 'ทางเท้า' 'น้ำท่วม' 'ถนน'
+ 'ต้นไม้' 'ป้าย' 'ถนน' 'ความสะอาด' 'เสียงรบกวน' 'ป้าย' 'สายไฟ' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ความปลอดภัย' 'ความสะอาด' 'ความปลอดภัย' 'ถนน'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ความสะอาด'
+ 'แสงสว่าง' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'กีดขวาง' 'ป้าย' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ต้นไม้' 'ความสะอาด' 'ถนน' 'ถนน' 'ถนน' 'ท่อระบายน้ำ' 'ถนน' 'ท่อระบายน้ำ'
+ 'ต้นไม้' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'แสงสว่าง' 'ถนน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'กีดขวาง' 'เสียงรบกวน' 'น้ำท่วม'
+ 'ป้าย' 'ถนน' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'น้ำท่วม' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ป้าย'
+ 'ถนน' 'ต้นไม้' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ถนน'
+ 'เสียงรบกวน' 'น้ำท่วม' 'ถนน' 'ถนน' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ป้าย'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ป้าย' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ป้าย'
+ 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ความปลอดภัย'
+ 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'แสงสว่าง' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด' 'ป้าย'
+ 'ต้นไม้' 'เสียงรบกวน' 'ความสะอาด' 'ถนน' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ถนน' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ความปลอดภัย'
+ 'ต้นไม้' 'ทางเท้า' 'ต้นไม้' 'กีดขวาง' 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ป้าย' 'ถนน' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'สายไฟ' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ความสะอาด' 'น้ำท่วม' 'ทางเท้า' 'ความสะอาด' 'จราจร' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ถนน' 'กีดขวาง' 'กีดขวาง' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ถนน' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ทางเท้า' 'จราจร' 'แสงสว่าง' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'น้ำท่วม' 'กีดขวาง' 'กีดขวาง' 'ถนน' 'ความสะอาด'
+ 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความปลอดภัย'
+ 'ความปลอดภัย' 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด'
+ 'สัตว์จรจัด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'กีดขวาง'
+ 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน'
+ 'ป้าย' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ทางเท้า' 'ต้นไม้' 'ห้องน้ำ' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม' 'ป้าย' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ต้นไม้' 'ป้าย' 'ทางเท้า' 'ถนน' 'จราจร'
+ 'ความสะอาด' 'ถนน' 'ทางเท้า' 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด']
+[2022-12-05T07:27:34.794+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:27:34.808+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:27:34.808+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:27:34.821+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:27:34.821+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:27:34.830+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 8.877 seconds
+[2022-12-05T07:28:05.406+0000] {processor.py:154} INFO - Started process (PID=266) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:05.408+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:28:05.411+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:05.411+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:09.386+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680 UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+[2022-12-05T07:28:14.697+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=2022) 
+[2022-12-05T07:28:14.699+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9878
+[2022-12-05T07:28:14.700+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.671
+[2022-12-05T07:28:14.700+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.6868
+[2022-12-05T07:28:14.702+0000] {logging_mixin.py:137} INFO - ['ความสะอาด' 'ทางเท้า' 'ถนน' 'ถนน' 'ถนน' 'สายไฟ' 'ความปลอดภัย' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'สายไฟ' 'ท่อระบายน้ำ' 'จราจร'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'สัตว์จรจัด' 'ต้นไม้' 'ความสะอาด' 'ป้าย'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ถนน' 'แสงสว่าง' 'ทางเท้า' 'ทางเท้า' 'จราจร' 'เสียงรบกวน'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า' 'ป้าย'
+ 'ถนน' 'กีดขวาง' 'ถนน' 'ความสะอาด' 'ถนน' 'ป้าย' 'ทางเท้า' 'น้ำท่วม' 'ถนน'
+ 'ต้นไม้' 'ป้าย' 'ถนน' 'ความสะอาด' 'เสียงรบกวน' 'ป้าย' 'สายไฟ' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'ป้าย' 'ความสะอาด'
+ 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด'
+ 'ป้าย' 'ต้นไม้' 'ต้นไม้' 'ความปลอดภัย' 'ความสะอาด' 'ความปลอดภัย' 'ถนน'
+ 'ทางเท้า' 'ถนน' 'ทางเท้า' 'เสียงรบกวน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'เสียงรบกวน' 'ถนน'
+ 'ถนน' 'ถนน' 'ความสะอาด' 'กีดขวาง' 'ความสะอาด' 'ถนน' 'ความสะอาด'
+ 'แสงสว่าง' 'ความสะอาด' 'ท่อระบายน้ำ' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด'
+ 'ทางเท้า' 'กีดขวาง' 'ป้าย' 'ถนน' 'ต้นไม้' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ต้นไม้' 'ความสะอาด' 'ถนน' 'ถนน' 'ถนน' 'ท่อระบายน้ำ' 'ถนน' 'ท่อระบายน้ำ'
+ 'ต้นไม้' 'ท่อระบายน้ำ' 'ความสะอาด' 'ความสะอาด' 'แสงสว่าง' 'ถนน' 'ถนน'
+ 'ทางเท้า' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'กีดขวาง' 'เสียงรบกวน' 'น้ำท่วม'
+ 'ป้าย' 'ถนน' 'ความสะอาด' 'ป้าย' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'น้ำท่วม' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ป้าย'
+ 'ถนน' 'ต้นไม้' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'น้ำท่วม' 'ป้าย' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ทางเท้า' 'ถนน'
+ 'เสียงรบกวน' 'น้ำท่วม' 'ถนน' 'ถนน' 'ถนน' 'ความสะอาด' 'ทางเท้า' 'ป้าย'
+ 'ความสะอาด' 'ความสะอาด' 'ถนน' 'เสียงรบกวน' 'ความสะอาด' 'ทางเท้า' 'ถนน'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'น้ำท่วม' 'ทางเท้า' 'ทางเท้า'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'จราจร' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ความสะอาด' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ถนน' 'น้ำท่วม' 'ความสะอาด' 'ความสะอาด'
+ 'ป้าย' 'เสียงรบกวน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ทางเท้า' 'ป้าย'
+ 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ป้าย' 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'ความปลอดภัย'
+ 'ป้าย' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ทางเท้า' 'ป้าย' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'แสงสว่าง' 'ความสะอาด' 'ความสะอาด'
+ 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'เสียงรบกวน' 'ความสะอาด' 'ป้าย'
+ 'ต้นไม้' 'เสียงรบกวน' 'ความสะอาด' 'ถนน' 'ป้าย' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ถนน' 'ถนน' 'ท่อระบายน้ำ' 'ความสะอาด' 'เสียงรบกวน'
+ 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ความปลอดภัย'
+ 'ต้นไม้' 'ทางเท้า' 'ต้นไม้' 'กีดขวาง' 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ทางเท้า' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า'
+ 'ความสะอาด' 'ป้าย' 'ถนน' 'ความสะอาด' 'ต้นไม้' 'ทางเท้า' 'ถนน' 'ความสะอาด'
+ 'ความสะอาด' 'ถนน' 'ความสะอาด' 'ป้าย' 'ความสะอาด' 'สายไฟ' 'ความสะอาด'
+ 'ทางเท้า' 'ถนน' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ถนน'
+ 'ความสะอาด' 'ทางเท้า' 'ท่อระบายน้ำ' 'ทางเท้า' 'ทางเท้า' 'ความสะอาด'
+ 'ป้าย' 'ความสะอาด' 'น้ำท่วม' 'ทางเท้า' 'ความสะอาด' 'จราจร' 'ความสะอาด'
+ 'ความสะอาด' 'ป้าย' 'ถนน' 'กีดขวาง' 'กีดขวาง' 'ต้นไม้' 'ถนน' 'ความสะอาด'
+ 'ถนน' 'ทางเท้า' 'ท่อระบายน้ำ' 'ความสะอาด' 'ต้นไม้' 'ความสะอาด' 'ทางเท้า'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ถนน' 'ต้นไม้' 'ถนน' 'กีดขวาง' 'ความสะอาด'
+ 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'ความสะอาด' 'ท่อระบายน้ำ'
+ 'ความสะอาด' 'ท่อระบายน้ำ' 'ทางเท้า' 'จราจร' 'แสงสว่าง' 'ถนน' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ความสะอาด' 'น้ำท่วม' 'กีดขวาง' 'กีดขวาง' 'ถนน' 'ความสะอาด'
+ 'เสียงรบกวน' 'ทางเท้า' 'ป้าย' 'ป้าย' 'ความสะอาด' 'ความสะอาด'
+ 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด' 'ความสะอาด' 'ความสะอาด' 'ความปลอดภัย'
+ 'ความปลอดภัย' 'ความสะอาด' 'ท่อระบายน้ำ' 'ป้าย' 'ความสะอาด' 'ทางเท้า'
+ 'เสียงรบกวน' 'ความสะอาด' 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด'
+ 'สัตว์จรจัด' 'ความสะอาด' 'ความสะอาด' 'ทางเท้า' 'เสียงรบกวน' 'กีดขวาง'
+ 'ความปลอดภัย' 'ความสะอาด' 'ความสะอาด' 'ท่อระบายน้ำ' 'ทางเท้า' 'ถนน'
+ 'ป้าย' 'ทางเท้า' 'ถนน' 'ทางเท้า' 'ทางเท้า' 'ต้นไม้' 'ห้องน้ำ' 'ทางเท้า'
+ 'ท่อระบายน้ำ' 'ทางเท้า' 'ความสะอาด' 'น้ำท่วม' 'ป้าย' 'ความสะอาด'
+ 'ความปลอดภัย' 'ความสะอาด' 'ต้นไม้' 'ป้าย' 'ทางเท้า' 'ถนน' 'จราจร'
+ 'ความสะอาด' 'ถนน' 'ทางเท้า' 'ท่อระบายน้ำ' 'ถนน' 'ความสะอาด']
+[2022-12-05T07:28:14.748+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:14.762+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:14.762+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:28:14.778+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:14.778+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:28:14.791+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 9.389 seconds
+[2022-12-05T07:28:45.109+0000] {processor.py:154} INFO - Started process (PID=302) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:45.112+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:28:45.114+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:45.114+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:47.090+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:28:47.104+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:47.104+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:28:47.116+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:28:47.116+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:28:47.126+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.021 seconds
+[2022-12-05T07:29:17.726+0000] {processor.py:154} INFO - Started process (PID=336) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:17.731+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:29:17.733+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:17.733+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:19.675+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:19.689+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:19.689+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:29:19.702+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:19.702+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:29:19.711+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.989 seconds
+[2022-12-05T07:29:50.279+0000] {processor.py:154} INFO - Started process (PID=371) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:50.282+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:29:50.284+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:50.283+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:52.448+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:29:52.462+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:52.462+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:29:52.475+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:29:52.475+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:29:52.485+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.210 seconds
+[2022-12-05T07:30:19.168+0000] {processor.py:154} INFO - Started process (PID=405) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:19.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:30:19.172+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:19.172+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:19.183+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:19.182+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 14
+    from TraffyFondueModel
+                         ^
+SyntaxError: invalid syntax
+[2022-12-05T07:30:19.184+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:19.200+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.036 seconds
+[2022-12-05T07:30:25.535+0000] {processor.py:154} INFO - Started process (PID=420) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:25.536+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:30:25.537+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:25.537+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:27.588+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:27.601+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:27.601+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:30:27.614+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:27.614+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:30:27.626+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.094 seconds
+[2022-12-05T07:30:30.622+0000] {processor.py:154} INFO - Started process (PID=422) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:30.623+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:30:30.624+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:30.624+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:32.545+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:30:32.562+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:32.562+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:30:32.575+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:30:32.575+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:30:32.589+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.970 seconds
+[2022-12-05T07:31:03.181+0000] {processor.py:154} INFO - Started process (PID=457) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:03.183+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:31:03.185+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:03.185+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:05.214+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:05.244+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:05.243+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:31:05.260+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:05.260+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:31:05.270+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.094 seconds
+[2022-12-05T07:31:35.844+0000] {processor.py:154} INFO - Started process (PID=491) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:35.847+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:31:35.848+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:35.848+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:37.674+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:31:37.688+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:37.688+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:31:37.701+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:31:37.701+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:31:37.711+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.869 seconds
+[2022-12-05T07:32:08.343+0000] {processor.py:154} INFO - Started process (PID=525) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:08.346+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:32:08.348+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:08.348+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:10.253+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:10.267+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:10.267+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:32:10.281+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:10.280+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:32:10.291+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.952 seconds
+[2022-12-05T07:32:40.905+0000] {processor.py:154} INFO - Started process (PID=559) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:40.909+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:32:40.910+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:40.910+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:42.859+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:32:42.874+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:42.873+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:32:42.886+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:32:42.886+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:32:42.896+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.996 seconds
+[2022-12-05T07:33:13.480+0000] {processor.py:154} INFO - Started process (PID=593) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:13.484+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:33:13.486+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:13.486+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:15.400+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:15.419+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:15.419+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:33:15.434+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:15.434+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:33:15.447+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.971 seconds
+[2022-12-05T07:33:45.986+0000] {processor.py:154} INFO - Started process (PID=628) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:45.987+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:33:45.988+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:45.988+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:47.918+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:33:47.931+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:47.931+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:33:47.944+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:33:47.944+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:33:47.953+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.970 seconds
+[2022-12-05T07:34:18.557+0000] {processor.py:154} INFO - Started process (PID=671) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:18.558+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:34:18.559+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:18.559+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:20.427+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:20.446+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:20.445+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:34:20.460+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:20.460+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:34:20.471+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.916 seconds
+[2022-12-05T07:34:51.103+0000] {processor.py:154} INFO - Started process (PID=705) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:51.106+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:34:51.107+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:51.107+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:52.983+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:34:52.996+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:52.996+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:34:53.009+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:34:53.008+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:34:53.019+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.918 seconds
+[2022-12-05T07:35:23.650+0000] {processor.py:154} INFO - Started process (PID=739) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:23.653+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:35:23.655+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:23.655+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:25.597+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:25.611+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:25.611+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:35:25.623+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:25.623+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:35:25.632+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.985 seconds
+[2022-12-05T07:35:56.230+0000] {processor.py:154} INFO - Started process (PID=773) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:56.233+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:35:56.235+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:56.235+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:58.160+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:35:58.173+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:58.173+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:35:58.187+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:35:58.187+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:35:58.197+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.971 seconds
+[2022-12-05T07:36:28.842+0000] {processor.py:154} INFO - Started process (PID=808) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:36:28.843+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:36:28.846+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:36:28.846+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:36:30.868+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:36:30.883+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:36:30.883+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:36:30.898+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:36:30.898+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:36:30.907+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.071 seconds
+[2022-12-05T07:37:01.521+0000] {processor.py:154} INFO - Started process (PID=847) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:01.522+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:37:01.523+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:01.523+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:03.455+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:03.469+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:03.469+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:37:03.483+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:03.483+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:37:03.493+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.975 seconds
+[2022-12-05T07:37:34.079+0000] {processor.py:154} INFO - Started process (PID=881) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:34.082+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:37:34.084+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:34.084+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:36.041+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:37:36.058+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:36.058+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:37:36.070+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:37:36.070+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:37:36.080+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.004 seconds
+[2022-12-05T07:38:06.723+0000] {processor.py:154} INFO - Started process (PID=915) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:06.725+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:38:06.726+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:06.726+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:08.567+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:08.581+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:08.581+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:38:08.593+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:08.593+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:38:08.603+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.882 seconds
+[2022-12-05T07:38:39.192+0000] {processor.py:154} INFO - Started process (PID=949) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:39.194+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:38:39.195+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:39.195+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:41.045+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:38:41.058+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:41.058+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:38:41.070+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:38:41.070+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:38:41.080+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.892 seconds
+[2022-12-05T07:39:11.715+0000] {processor.py:154} INFO - Started process (PID=983) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:11.718+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:39:11.720+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:11.720+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:13.577+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:13.593+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:13.593+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:39:13.608+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:13.608+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:39:13.618+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.907 seconds
+[2022-12-05T07:39:44.234+0000] {processor.py:154} INFO - Started process (PID=1017) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:44.237+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:39:44.239+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:44.239+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:46.113+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:39:46.127+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:46.127+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:39:46.141+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:39:46.141+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:39:46.151+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.922 seconds
+[2022-12-05T07:40:16.732+0000] {processor.py:154} INFO - Started process (PID=1051) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:16.735+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:40:16.737+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:16.736+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:18.573+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:18.588+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:18.588+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:40:18.603+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:18.603+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:40:18.613+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.886 seconds
+[2022-12-05T07:40:49.307+0000] {processor.py:154} INFO - Started process (PID=1085) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:49.309+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:40:49.311+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:49.311+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:51.219+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:40:51.236+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:51.236+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:40:51.250+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:40:51.250+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:40:51.261+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.957 seconds
+[2022-12-05T07:41:21.903+0000] {processor.py:154} INFO - Started process (PID=1119) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:21.906+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:41:21.907+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:21.907+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:23.821+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:23.835+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:23.834+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:41:23.847+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:23.847+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:41:23.857+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.958 seconds
+[2022-12-05T07:41:54.520+0000] {processor.py:154} INFO - Started process (PID=1153) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:54.524+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:41:54.526+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:54.526+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:56.552+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:41:56.566+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:56.566+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:41:56.578+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:41:56.578+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:41:56.588+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.072 seconds
+[2022-12-05T07:42:03.622+0000] {processor.py:154} INFO - Started process (PID=1165) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:03.625+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:03.627+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:03.627+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:05.686+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:05.685+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 32, in <module>
+    extract = PythonOperator(task_id='extract_data', python_callable=extract_data)
+NameError: name 'extract_data' is not defined
+[2022-12-05T07:42:05.688+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:05.700+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.084 seconds
+[2022-12-05T07:42:10.811+0000] {processor.py:154} INFO - Started process (PID=1181) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:10.814+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:10.816+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:10.815+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:12.701+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:12.716+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:12.716+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:42:12.728+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:12.728+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:42:12.742+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.934 seconds
+[2022-12-05T07:42:14.850+0000] {processor.py:154} INFO - Started process (PID=1183) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:14.852+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:14.854+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:14.854+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:16.863+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:16.879+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:16.879+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:42:16.893+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:16.893+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:42:16.906+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.060 seconds
+[2022-12-05T07:42:18.859+0000] {processor.py:154} INFO - Started process (PID=1185) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:18.861+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:18.862+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:18.862+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:20.965+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:20.978+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:20.978+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:42:20.992+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:20.992+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:42:21.005+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.148 seconds
+[2022-12-05T07:42:30.084+0000] {processor.py:154} INFO - Started process (PID=1196) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:30.086+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:30.087+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:30.087+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:32.157+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:32.153+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 16, in <module>
+    from
+NameError: name 'f' is not defined
+[2022-12-05T07:42:32.159+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:32.169+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.087 seconds
+[2022-12-05T07:42:40.592+0000] {processor.py:154} INFO - Started process (PID=1212) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:40.593+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:40.594+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:40.594+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:40.602+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:40.601+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/data_tools_final._oprator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_tools_final._oprator.py", line 16
+    from data_extraction import
+                               ^
+SyntaxError: invalid syntax
+[2022-12-05T07:42:40.603+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:40.616+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 0.026 seconds
+[2022-12-05T07:42:49.690+0000] {processor.py:154} INFO - Started process (PID=1222) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:49.692+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:42:49.693+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:49.693+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:51.652+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:42:51.667+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:51.666+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:42:51.682+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:42:51.682+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:42:51.699+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.010 seconds
+[2022-12-05T07:43:12.167+0000] {processor.py:154} INFO - Started process (PID=1247) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:12.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:43:12.171+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:12.171+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:14.319+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:14.337+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:14.336+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:43:14.352+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:14.352+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:43:14.367+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.204 seconds
+[2022-12-05T07:43:44.774+0000] {processor.py:154} INFO - Started process (PID=1282) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:44.776+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:43:44.778+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:44.778+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:46.854+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:43:46.869+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:46.868+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:43:46.881+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:43:46.881+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:43:46.891+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.122 seconds
+[2022-12-05T07:44:17.448+0000] {processor.py:154} INFO - Started process (PID=1315) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:17.450+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:44:17.451+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:17.451+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:19.582+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:19.595+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:19.595+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:44:19.607+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:19.607+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:44:19.616+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.173 seconds
+[2022-12-05T07:44:50.108+0000] {processor.py:154} INFO - Started process (PID=1349) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:50.110+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:44:50.112+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:50.112+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:52.174+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:44:52.189+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:52.189+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:44:52.202+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:44:52.202+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:44:52.214+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.109 seconds
+[2022-12-05T07:45:14.844+0000] {processor.py:154} INFO - Started process (PID=1383) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:14.846+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:45:14.848+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:14.848+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:16.781+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:16.795+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:16.795+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:45:16.808+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:16.808+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:45:16.820+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 1.981 seconds
+[2022-12-05T07:45:17.875+0000] {processor.py:154} INFO - Started process (PID=1385) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:17.878+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:45:17.881+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:17.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:19.928+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:19.941+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:19.941+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:45:19.954+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:19.954+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:45:19.967+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.097 seconds
+[2022-12-05T07:45:49.405+0000] {processor.py:154} INFO - Started process (PID=1420) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:49.407+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:45:49.410+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:49.410+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:51.388+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:45:51.405+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:51.405+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:45:51.421+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:45:51.420+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:45:51.436+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.034 seconds
+[2022-12-05T07:46:21.908+0000] {processor.py:154} INFO - Started process (PID=1457) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:21.912+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:46:21.915+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:21.914+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:24.304+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:24.319+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:24.319+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:46:24.333+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:24.333+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:46:24.345+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.440 seconds
+[2022-12-05T07:46:54.415+0000] {processor.py:154} INFO - Started process (PID=1491) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:54.417+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:46:54.418+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:54.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:56.438+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:46:56.452+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:56.452+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:46:56.464+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:46:56.464+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:46:56.488+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_tools_final._oprator.py took 2.075 seconds
+[2022-12-05T07:47:26.934+0000] {processor.py:154} INFO - Started process (PID=1525) to work on /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:47:26.937+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_tools_final._oprator.py for tasks to queue
+[2022-12-05T07:47:26.939+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:47:26.939+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:47:29.249+0000] {processor.py:766} INFO - DAG(s) dict_keys(['traffy_fondue_data_analyst']) retrieved from /opt/airflow/dags/data_tools_final._oprator.py
+[2022-12-05T07:47:29.262+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:47:29.262+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-05T07:47:29.275+0000] {logging_mixin.py:137} INFO - [2022-12-05T07:47:29.275+0000] {dag.py:3340} INFO - Setting next_dagrun for traffy_fondue_data_analyst to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T07:47:29.281+0000] {processor.py:179} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 175, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 159, in _handle_dag_file_processing
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 781, in process_file
+    dagbag.sync_to_db(processor_subdir=self._dag_directory, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 644, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 384, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 351, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 659, in sync_to_db
+    self.dags.values(), processor_subdir=processor_subdir, session=session
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2687, in bulk_write_to_db
+    DagCode.bulk_sync_to_db(filelocs, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagcode.py", line 117, in bulk_sync_to_db
+    os.path.getmtime(correct_maybe_zipped(fileloc)), tz=timezone.utc
+  File "/usr/local/lib/python3.7/genericpath.py", line 55, in getmtime
+    return os.stat(filename).st_mtime
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data_tools_final._oprator.py'

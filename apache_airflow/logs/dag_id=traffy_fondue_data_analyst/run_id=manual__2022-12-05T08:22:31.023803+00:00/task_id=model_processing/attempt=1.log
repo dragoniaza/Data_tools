@@ -1,0 +1,49 @@
+[2022-12-05T08:22:45.093+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: traffy_fondue_data_analyst.model_processing manual__2022-12-05T08:22:31.023803+00:00 [queued]>
+[2022-12-05T08:22:45.099+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: traffy_fondue_data_analyst.model_processing manual__2022-12-05T08:22:31.023803+00:00 [queued]>
+[2022-12-05T08:22:45.100+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05T08:22:45.101+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-05T08:22:45.102+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05T08:22:45.110+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): model_processing> on 2022-12-05 08:22:31.023803+00:00
+[2022-12-05T08:22:45.118+0000] {standard_task_runner.py:55} INFO - Started process 3043 to run task
+[2022-12-05T08:22:45.121+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'traffy_fondue_data_analyst', 'model_processing', 'manual__2022-12-05T08:22:31.023803+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/data_tools_final_oprator.py', '--cfg-path', '/tmp/tmp73lpk8_k']
+[2022-12-05T08:22:45.124+0000] {standard_task_runner.py:83} INFO - Job 165: Subtask model_processing
+[2022-12-05T08:22:45.164+0000] {task_command.py:376} INFO - Running <TaskInstance: traffy_fondue_data_analyst.model_processing manual__2022-12-05T08:22:31.023803+00:00 [running]> on host 0bd7e010c569
+[2022-12-05T08:22:45.203+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=traffy_fondue_data_analyst
+AIRFLOW_CTX_TASK_ID=model_processing
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-05T08:22:31.023803+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-05T08:22:31.023803+00:00
+[2022-12-05T08:23:08.561+0000] {logging_mixin.py:137} INFO -  LogisticRegression(random_state=42) 
+[2022-12-05T08:23:08.562+0000] {logging_mixin.py:137} INFO - Train Accuracy Rate           = 0.9901
+[2022-12-05T08:23:08.563+0000] {logging_mixin.py:137} INFO - Validataion Accuracy Rate    = 0.721
+[2022-12-05T08:23:08.564+0000] {logging_mixin.py:137} INFO - Test Accuracy Rate      = 0.7219
+[2022-12-05T08:23:08.622+0000] {logging_mixin.py:137} INFO - <class 'numpy.ndarray'>
+[2022-12-05T08:23:08.625+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_tools_final_oprator.py", line 27, in Model_processing
+    trained_model = traffy.train_Model(preprocess)
+  File "/opt/airflow/plugins/datatool_model.py", line 44, in train_Model
+    logistic = self.classifier_model(self.model,listok)
+  File "/opt/airflow/plugins/datatool_model.py", line 63, in classifier_model
+    df['predicted'] = predicted
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 3612, in __setitem__
+    self._set_item(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 3784, in _set_item
+    value = self._sanitize_column(value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 4509, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/common.py", line 532, in require_length_match
+    "Length of values "
+ValueError: Length of values (1510) does not match length of index (11000)
+[2022-12-05T08:23:08.637+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=traffy_fondue_data_analyst, task_id=model_processing, execution_date=20221205T082231, start_date=20221205T082245, end_date=20221205T082308
+[2022-12-05T08:23:08.650+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 165 for task model_processing (Length of values (1510) does not match length of index (11000); 3043)
+[2022-12-05T08:23:08.703+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-05T08:23:08.716+0000] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,38 @@
+[2022-11-18T04:39:31.349+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_pyspark.load_data scheduled__2022-11-17T00:00:00+00:00 [queued]>
+[2022-11-18T04:39:31.356+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_pyspark.load_data scheduled__2022-11-17T00:00:00+00:00 [queued]>
+[2022-11-18T04:39:31.357+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T04:39:31.358+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-18T04:39:31.359+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T04:39:31.367+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-17 00:00:00+00:00
+[2022-11-18T04:39:31.371+0000] {standard_task_runner.py:55} INFO - Started process 61 to run task
+[2022-11-18T04:39:31.374+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python_operator_pyspark', 'load_data', 'scheduled__2022-11-17T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/load_data_to_spark_backup.py', '--cfg-path', '/tmp/tmpny4osou5']
+[2022-11-18T04:39:31.375+0000] {standard_task_runner.py:83} INFO - Job 40: Subtask load_data
+[2022-11-18T04:39:31.417+0000] {task_command.py:376} INFO - Running <TaskInstance: python_operator_pyspark.load_data scheduled__2022-11-17T00:00:00+00:00 [running]> on host c373a5bdc041
+[2022-11-18T04:39:31.455+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=python_operator_pyspark
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-17T00:00:00+00:00
+[2022-11-18T04:39:46.421+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load_data_to_spark_backup.py", line 19, in load_data
+    .json("./data/*.json")
+  File "/opt/spark/python/pyspark/sql/readwriter.py", line 284, in json
+    return self._df(self._jreader.json(self._spark._sc._jvm.PythonUtils.toSeq(path)))
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Path does not exist: file:/opt/airflow/data/*.json
+[2022-11-18T04:39:46.451+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=python_operator_pyspark, task_id=load_data, execution_date=20221117T000000, start_date=20221118T043931, end_date=20221118T043946
+[2022-11-18T04:39:46.461+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 40 for task load_data (Path does not exist: file:/opt/airflow/data/*.json; 61)
+[2022-11-18T04:39:46.497+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-11-18T04:39:46.511+0000] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check

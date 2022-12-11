@@ -1,0 +1,119 @@
+[2022-11-20T01:04:13.506+0000] {processor.py:154} INFO - Started process (PID=39696) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T01:04:13.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T01:04:13.520+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:13.515+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T01:04:13.591+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T01:04:13.737+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:13.736+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T01:04:13.795+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:13.795+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T01:04:13.869+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.376 seconds
+[2022-11-20T02:40:29.355+0000] {processor.py:154} INFO - Started process (PID=39721) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T02:40:29.361+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T02:40:29.363+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:29.363+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T02:40:29.385+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T02:40:29.472+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:29.472+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T02:40:29.509+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:29.509+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T02:40:29.535+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.186 seconds
+[2022-11-20T04:05:24.964+0000] {processor.py:154} INFO - Started process (PID=39752) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T04:05:24.968+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T04:05:24.969+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:24.969+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T04:05:25.002+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T04:05:25.067+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:25.067+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T04:05:25.126+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:25.126+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T04:05:25.167+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.206 seconds
+[2022-11-20T05:42:42.591+0000] {processor.py:154} INFO - Started process (PID=39781) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T05:42:42.594+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T05:42:42.595+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.595+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T05:42:42.614+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T05:42:42.666+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.666+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T05:42:42.698+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.698+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T05:42:42.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.128 seconds
+[2022-11-20T07:06:57.324+0000] {processor.py:154} INFO - Started process (PID=39806) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T07:06:57.325+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T07:06:57.327+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:57.326+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T07:06:57.341+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T07:06:57.368+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:57.368+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T07:06:57.383+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:57.383+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T07:06:57.396+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.075 seconds
+[2022-11-20T08:42:30.801+0000] {processor.py:154} INFO - Started process (PID=39838) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T08:42:30.807+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T08:42:30.809+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:30.809+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T08:42:30.852+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T08:42:30.917+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:30.917+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T08:42:31.026+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:31.026+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T08:42:31.066+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.271 seconds
+[2022-11-20T10:02:34.310+0000] {processor.py:154} INFO - Started process (PID=39871) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T10:02:34.317+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T10:02:34.323+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:34.323+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T10:02:34.381+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T10:02:34.473+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:34.473+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T10:02:34.509+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:34.509+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T10:02:34.551+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.244 seconds
+[2022-11-20T11:23:32.657+0000] {processor.py:154} INFO - Started process (PID=39903) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T11:23:32.660+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T11:23:32.662+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.662+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T11:23:32.681+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T11:23:32.737+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.737+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T11:23:32.835+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.835+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T11:23:32.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.240 seconds
+[2022-11-20T13:01:05.011+0000] {processor.py:154} INFO - Started process (PID=39925) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T13:01:05.016+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T13:01:05.018+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:05.017+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T13:01:05.046+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T13:01:05.099+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:05.099+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T13:01:05.126+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:05.126+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T13:01:05.150+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.147 seconds
+[2022-11-20T14:25:08.076+0000] {processor.py:154} INFO - Started process (PID=39957) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T14:25:08.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T14:25:08.083+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:08.083+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T14:25:08.098+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T14:25:08.125+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:08.125+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T14:25:08.142+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:08.141+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T14:25:08.153+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.079 seconds
+[2022-11-20T16:06:20.995+0000] {processor.py:154} INFO - Started process (PID=39989) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T16:06:20.999+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T16:06:21.000+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:21.000+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T16:06:21.030+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T16:06:21.106+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:21.106+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T16:06:21.140+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:21.140+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T16:06:21.169+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.177 seconds
+[2022-11-20T17:24:49.032+0000] {processor.py:154} INFO - Started process (PID=40021) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:24:49.037+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T17:24:49.039+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:49.039+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:24:49.076+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:24:49.150+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:49.150+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T17:24:49.173+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:49.173+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T17:24:49.189+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.159 seconds
+[2022-11-20T17:51:29.760+0000] {processor.py:154} INFO - Started process (PID=40043) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:51:29.762+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T17:51:29.766+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:51:29.821+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T17:51:29.930+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.930+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T17:51:29.961+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.960+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T17:51:29.978+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.227 seconds
+[2022-11-20T19:12:08.694+0000] {processor.py:154} INFO - Started process (PID=40077) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T19:12:08.724+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T19:12:08.728+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.728+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T19:12:08.772+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T19:12:08.857+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.856+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T19:12:08.898+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.898+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T19:12:08.936+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.258 seconds
+[2022-11-20T20:26:13.058+0000] {processor.py:154} INFO - Started process (PID=40108) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T20:26:13.060+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T20:26:13.062+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:13.062+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T20:26:13.095+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T20:26:13.161+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:13.160+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T20:26:13.185+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:13.185+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T20:26:13.197+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.144 seconds
+[2022-11-20T21:47:51.351+0000] {processor.py:154} INFO - Started process (PID=40130) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T21:47:51.355+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T21:47:51.359+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:51.358+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T21:47:51.469+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T21:47:51.541+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:51.540+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T21:47:51.572+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:51.572+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T21:47:51.610+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.262 seconds
+[2022-11-20T23:24:36.738+0000] {processor.py:154} INFO - Started process (PID=40161) to work on /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T23:24:36.745+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/cp_webcheck_failed copy.py for tasks to queue
+[2022-11-20T23:24:36.747+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.747+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T23:24:36.793+0000] {processor.py:766} INFO - DAG(s) dict_keys(['cp_webcheck_failed_copy']) retrieved from /opt/airflow/dags/cp_webcheck_failed copy.py
+[2022-11-20T23:24:36.910+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.910+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T23:24:36.943+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.943+0000] {dag.py:3340} INFO - Setting next_dagrun for cp_webcheck_failed_copy to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T23:24:36.997+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/cp_webcheck_failed copy.py took 0.262 seconds

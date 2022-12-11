@@ -1,0 +1,25 @@
+[2022-11-18T11:02:34.987+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: rest_test.post_op_1 scheduled__2022-11-17T00:00:00+00:00 [queued]>
+[2022-11-18T11:02:34.994+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: rest_test.post_op_1 scheduled__2022-11-17T00:00:00+00:00 [queued]>
+[2022-11-18T11:02:34.995+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T11:02:34.996+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-18T11:02:34.997+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T11:02:35.005+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): post_op_1> on 2022-11-17 00:00:00+00:00
+[2022-11-18T11:02:35.009+0000] {standard_task_runner.py:55} INFO - Started process 62 to run task
+[2022-11-18T11:02:35.012+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'rest_test', 'post_op_1', 'scheduled__2022-11-17T00:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/***_operator.py', '--cfg-path', '/tmp/tmp1q94bxhr']
+[2022-11-18T11:02:35.013+0000] {standard_task_runner.py:83} INFO - Job 49: Subtask post_op_1
+[2022-11-18T11:02:35.069+0000] {task_command.py:376} INFO - Running <TaskInstance: rest_test.post_op_1 scheduled__2022-11-17T00:00:00+00:00 [running]> on host 71a129efd3d8
+[2022-11-18T11:02:35.133+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=rest_test
+AIRFLOW_CTX_TASK_ID=post_op_1
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-17T00:00:00+00:00
+[2022-11-18T11:02:35.136+0000] {http.py:121} INFO - Calling HTTP method
+[2022-11-18T11:02:35.149+0000] {base.py:71} INFO - Using connection ID 'localhttp' for task execution.
+[2022-11-18T11:02:35.156+0000] {http.py:148} INFO - Sending 'POST' to url: http://192.168.1.35:5500/compute
+[2022-11-18T11:02:35.238+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=rest_test, task_id=post_op_1, execution_date=20221117T000000, start_date=20221118T110234, end_date=20221118T110235
+[2022-11-18T11:02:35.266+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-11-18T11:02:35.285+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,119 @@
+[2022-11-20T01:04:12.250+0000] {processor.py:154} INFO - Started process (PID=39682) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T01:04:12.251+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T01:04:12.253+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:12.253+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T01:04:12.905+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T01:04:13.152+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:13.152+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T01:04:13.224+0000] {logging_mixin.py:137} INFO - [2022-11-20T01:04:13.224+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T01:04:13.360+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 1.114 seconds
+[2022-11-20T02:40:28.779+0000] {processor.py:154} INFO - Started process (PID=39719) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T02:40:28.784+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T02:40:28.786+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:28.786+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T02:40:29.109+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T02:40:29.199+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:29.199+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T02:40:29.239+0000] {logging_mixin.py:137} INFO - [2022-11-20T02:40:29.239+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T02:40:29.276+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.506 seconds
+[2022-11-20T04:05:24.442+0000] {processor.py:154} INFO - Started process (PID=39750) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T04:05:24.445+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T04:05:24.448+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:24.447+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T04:05:24.784+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T04:05:24.853+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:24.853+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T04:05:24.897+0000] {logging_mixin.py:137} INFO - [2022-11-20T04:05:24.897+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T04:05:24.921+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.481 seconds
+[2022-11-20T05:42:42.065+0000] {processor.py:154} INFO - Started process (PID=39773) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T05:42:42.069+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T05:42:42.071+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.071+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T05:42:42.444+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T05:42:42.491+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.491+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T05:42:42.532+0000] {logging_mixin.py:137} INFO - [2022-11-20T05:42:42.531+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T05:42:42.554+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.507 seconds
+[2022-11-20T07:06:56.741+0000] {processor.py:154} INFO - Started process (PID=39804) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T07:06:56.745+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T07:06:56.748+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:56.748+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T07:06:57.175+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T07:06:57.227+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:57.227+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T07:06:57.266+0000] {logging_mixin.py:137} INFO - [2022-11-20T07:06:57.266+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T07:06:57.288+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.561 seconds
+[2022-11-20T08:42:30.328+0000] {processor.py:154} INFO - Started process (PID=39836) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T08:42:30.333+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T08:42:30.335+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:30.334+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T08:42:30.560+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T08:42:30.652+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:30.652+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T08:42:30.694+0000] {logging_mixin.py:137} INFO - [2022-11-20T08:42:30.694+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T08:42:30.756+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.432 seconds
+[2022-11-20T10:02:33.752+0000] {processor.py:154} INFO - Started process (PID=39869) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T10:02:33.754+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T10:02:33.756+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:33.756+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T10:02:34.093+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T10:02:34.184+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:34.183+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T10:02:34.219+0000] {logging_mixin.py:137} INFO - [2022-11-20T10:02:34.219+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T10:02:34.261+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.511 seconds
+[2022-11-20T11:23:32.295+0000] {processor.py:154} INFO - Started process (PID=39899) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T11:23:32.297+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T11:23:32.298+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.298+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T11:23:32.600+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T11:23:32.630+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.630+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T11:23:32.657+0000] {logging_mixin.py:137} INFO - [2022-11-20T11:23:32.656+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T11:23:32.694+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.402 seconds
+[2022-11-20T13:01:04.560+0000] {processor.py:154} INFO - Started process (PID=39923) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T13:01:04.564+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T13:01:04.566+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:04.565+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T13:01:04.844+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T13:01:04.902+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:04.902+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T13:01:04.936+0000] {logging_mixin.py:137} INFO - [2022-11-20T13:01:04.936+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T13:01:04.961+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.404 seconds
+[2022-11-20T14:25:07.584+0000] {processor.py:154} INFO - Started process (PID=39955) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T14:25:07.589+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T14:25:07.592+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:07.592+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T14:25:07.937+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T14:25:08.000+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:08.000+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T14:25:08.021+0000] {logging_mixin.py:137} INFO - [2022-11-20T14:25:08.021+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T14:25:08.039+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.474 seconds
+[2022-11-20T16:06:20.468+0000] {processor.py:154} INFO - Started process (PID=39987) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T16:06:20.475+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T16:06:20.478+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:20.478+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T16:06:20.817+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T16:06:20.889+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:20.888+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T16:06:20.928+0000] {logging_mixin.py:137} INFO - [2022-11-20T16:06:20.928+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T16:06:20.955+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.495 seconds
+[2022-11-20T17:24:48.259+0000] {processor.py:154} INFO - Started process (PID=40016) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:24:48.266+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T17:24:48.271+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:48.271+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:24:48.750+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:24:48.873+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:48.873+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T17:24:48.924+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:24:48.924+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T17:24:48.986+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.733 seconds
+[2022-11-20T17:51:29.090+0000] {processor.py:154} INFO - Started process (PID=40041) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:51:29.097+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T17:51:29.101+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.101+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:51:29.501+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T17:51:29.563+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.563+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T17:51:29.595+0000] {logging_mixin.py:137} INFO - [2022-11-20T17:51:29.595+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T17:51:29.661+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.575 seconds
+[2022-11-20T19:12:08.153+0000] {processor.py:154} INFO - Started process (PID=40075) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T19:12:08.155+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T19:12:08.157+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.157+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T19:12:08.344+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T19:12:08.375+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.375+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T19:12:08.637+0000] {logging_mixin.py:137} INFO - [2022-11-20T19:12:08.637+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T19:12:08.755+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.605 seconds
+[2022-11-20T20:26:12.606+0000] {processor.py:154} INFO - Started process (PID=40106) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T20:26:12.609+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T20:26:12.611+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:12.611+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T20:26:12.889+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T20:26:12.939+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:12.938+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T20:26:12.977+0000] {logging_mixin.py:137} INFO - [2022-11-20T20:26:12.977+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T20:26:13.009+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.410 seconds
+[2022-11-20T21:47:50.667+0000] {processor.py:154} INFO - Started process (PID=40128) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T21:47:50.764+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T21:47:50.771+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:50.771+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T21:47:51.171+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T21:47:51.240+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:51.239+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T21:47:51.268+0000] {logging_mixin.py:137} INFO - [2022-11-20T21:47:51.268+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T21:47:51.291+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.630 seconds
+[2022-11-20T23:24:36.119+0000] {processor.py:154} INFO - Started process (PID=40159) to work on /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T23:24:36.130+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/load_data_to_spark_backup.py for tasks to queue
+[2022-11-20T23:24:36.136+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.136+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T23:24:36.505+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_operator_pyspark']) retrieved from /opt/airflow/dags/load_data_to_spark_backup.py
+[2022-11-20T23:24:36.594+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.594+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-20T23:24:36.627+0000] {logging_mixin.py:137} INFO - [2022-11-20T23:24:36.627+0000] {dag.py:3340} INFO - Setting next_dagrun for python_operator_pyspark to 2022-11-20T00:00:00+00:00, run_after=2022-11-21T00:00:00+00:00
+[2022-11-20T23:24:36.673+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/load_data_to_spark_backup.py took 0.557 seconds

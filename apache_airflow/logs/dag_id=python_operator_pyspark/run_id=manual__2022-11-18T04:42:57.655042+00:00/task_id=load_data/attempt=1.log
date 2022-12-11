@@ -1,0 +1,73 @@
+[2022-11-18T04:42:58.589+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_pyspark.load_data manual__2022-11-18T04:42:57.655042+00:00 [queued]>
+[2022-11-18T04:42:58.596+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_operator_pyspark.load_data manual__2022-11-18T04:42:57.655042+00:00 [queued]>
+[2022-11-18T04:42:58.598+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T04:42:58.598+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-18T04:42:58.599+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-18T04:42:58.607+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): load_data> on 2022-11-18 04:42:57.655042+00:00
+[2022-11-18T04:42:58.612+0000] {standard_task_runner.py:55} INFO - Started process 263 to run task
+[2022-11-18T04:42:58.614+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python_operator_pyspark', 'load_data', 'manual__2022-11-18T04:42:57.655042+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/load_data_to_spark_backup.py', '--cfg-path', '/tmp/tmpt8nsd9z_']
+[2022-11-18T04:42:58.615+0000] {standard_task_runner.py:83} INFO - Job 43: Subtask load_data
+[2022-11-18T04:42:58.660+0000] {task_command.py:376} INFO - Running <TaskInstance: python_operator_pyspark.load_data manual__2022-11-18T04:42:57.655042+00:00 [running]> on host 61b655b63d92
+[2022-11-18T04:42:58.705+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=python_operator_pyspark
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-18T04:42:57.655042+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-18T04:42:57.655042+00:00
+[2022-11-18T04:46:50.547+0000] {local_task_job.py:223} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-11-18T04:46:50.550+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 263. PIDs of all processes in the group: [264, 263]
+[2022-11-18T04:46:50.551+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 263
+[2022-11-18T04:46:50.553+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-11-18T04:46:50.556+0000] {clientserver.py:538} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-11-18T04:46:50.561+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2022-11-18T04:46:50.562+0000] {java_gateway.py:1056} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/clientserver.py", line 540, in send_command
+    "Error while sending or receiving", e, proto.ERROR_ON_RECEIVE)
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2022-11-18T04:46:50.565+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2022-11-18T04:46:50.567+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load_data_to_spark_backup.py", line 19, in load_data
+    .json("./data/*.json")
+  File "/opt/spark/python/pyspark/sql/readwriter.py", line 284, in json
+    return self._df(self._jreader.json(self._spark._sc._jvm.PythonUtils.toSeq(path)))
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py", line 1322, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/opt/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/protocol.py", line 336, in get_return_value
+    format(target_id, ".", name))
+py4j.protocol.Py4JError: An error occurred while calling o26.json
+[2022-11-18T04:46:50.582+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=python_operator_pyspark, task_id=load_data, execution_date=20221118T044257, start_date=20221118T044258, end_date=20221118T044650
+[2022-11-18T04:46:50.607+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 43 for task load_data (An error occurred while calling o26.json; 263)
+[2022-11-18T04:46:51.091+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=263, status='terminated', exitcode=1, started='04:42:57') (263) terminated with exit code 1
+[2022-11-18T04:46:51.119+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=264, status='terminated', started='04:42:57') (264) terminated with exit code None

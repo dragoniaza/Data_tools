@@ -1,0 +1,33 @@
+[2022-11-24T00:04:48.084+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: cp_webcheck_failed_copy.http_check_copy scheduled__2022-11-23T00:00:00+00:00 [queued]>
+[2022-11-24T00:04:48.096+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: cp_webcheck_failed_copy.http_check_copy scheduled__2022-11-23T00:00:00+00:00 [queued]>
+[2022-11-24T00:04:48.098+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T00:04:48.100+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-24T00:04:48.101+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T00:04:48.131+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): http_check_copy> on 2022-11-23 00:00:00+00:00
+[2022-11-24T00:04:48.139+0000] {standard_task_runner.py:55} INFO - Started process 44285 to run task
+[2022-11-24T00:04:48.145+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cp_webcheck_failed_copy', 'http_check_copy', 'scheduled__2022-11-23T00:00:00+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/cp_webcheck_failed copy.py', '--cfg-path', '/tmp/tmpd3u8sv01']
+[2022-11-24T00:04:48.146+0000] {standard_task_runner.py:83} INFO - Job 83: Subtask http_check_copy
+[2022-11-24T00:04:48.218+0000] {task_command.py:376} INFO - Running <TaskInstance: cp_webcheck_failed_copy.http_check_copy scheduled__2022-11-23T00:00:00+00:00 [running]> on host 71a129efd3d8
+[2022-11-24T00:04:48.292+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cp_webcheck_failed_copy
+AIRFLOW_CTX_TASK_ID=http_check_copy
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-23T00:00:00+00:00
+[2022-11-24T00:04:48.296+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-11-24T00:04:49.307+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'curl -s https://localhost > /dev/null']
+[2022-11-24T00:04:50.333+0000] {subprocess.py:86} INFO - Output:
+[2022-11-24T00:04:50.364+0000] {subprocess.py:97} INFO - Command exited with return code 7
+[2022-11-24T00:04:50.391+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 7.
+[2022-11-24T00:04:50.405+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=cp_webcheck_failed_copy, task_id=http_check_copy, execution_date=20221123T000000, start_date=20221124T000448, end_date=20221124T000450
+[2022-11-24T00:04:50.450+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 83 for task http_check_copy (Bash command failed. The command returned a non-zero exit code 7.; 44285)
+[2022-11-24T00:04:50.494+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-11-24T00:04:50.587+0000] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2022-12-05T08:13:19.644+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: traffy_fondue_data_analyst.extract_data manual__2022-12-05T08:13:16.392596+00:00 [queued]>
+[2022-12-05T08:13:19.650+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: traffy_fondue_data_analyst.extract_data manual__2022-12-05T08:13:16.392596+00:00 [queued]>
+[2022-12-05T08:13:19.651+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05T08:13:19.652+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-05T08:13:19.652+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-05T08:13:19.660+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract_data> on 2022-12-05 08:13:16.392596+00:00
+[2022-12-05T08:13:19.669+0000] {standard_task_runner.py:55} INFO - Started process 2553 to run task
+[2022-12-05T08:13:19.672+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'traffy_fondue_data_analyst', 'extract_data', 'manual__2022-12-05T08:13:16.392596+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/data_tools_final_oprator.py', '--cfg-path', '/tmp/tmpm4nyjc6q']
+[2022-12-05T08:13:19.674+0000] {standard_task_runner.py:83} INFO - Job 162: Subtask extract_data
+[2022-12-05T08:13:19.715+0000] {task_command.py:376} INFO - Running <TaskInstance: traffy_fondue_data_analyst.extract_data manual__2022-12-05T08:13:16.392596+00:00 [running]> on host 0bd7e010c569
+[2022-12-05T08:13:19.755+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=traffy_fondue_data_analyst
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-05T08:13:16.392596+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-05T08:13:16.392596+00:00
+[2022-12-05T08:13:20.110+0000] {logging_mixin.py:137} INFO - start extract data
+[2022-12-05T08:13:20.648+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:21.168+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:21.907+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:23.708+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:24.245+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:24.731+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:25.240+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:25.793+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:26.271+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:26.807+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:27.370+0000] {logging_mixin.py:137} INFO - start call api data
+[2022-12-05T08:13:28.474+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-05T08:13:28.484+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=traffy_fondue_data_analyst, task_id=extract_data, execution_date=20221205T081316, start_date=20221205T081319, end_date=20221205T081328
+[2022-12-05T08:13:28.548+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-05T08:13:28.574+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check
