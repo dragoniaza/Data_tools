@@ -13,7 +13,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn import svm
-from sklearn.metrics import roc_auc_score, make_scorer, accuracy_score,confusion_matrix, plot_roc_curve
+from sklearn.metrics import roc_auc_score, make_scorer, accuracy_score,confusion_matrix, plot_roc_curve,classification_report
 
 
 class TraffyFondueModel:
@@ -21,6 +21,7 @@ class TraffyFondueModel:
     self.model = model
 
   def import_data(self):
+    # df = pd.read_csv('/Users/80524/Data_tools/apache_airflow/data/traffy_fondue_data.csv')
     df = pd.read_csv('./data/traffy_fondue_data.csv')
     df = df.dropna()
     df['clean_comment'] = df['comment'].map(lambda x: self.clean_str(x))
@@ -43,7 +44,7 @@ class TraffyFondueModel:
     # save the model to disk
     filename = './model/'+'cvec_model.model'
     # filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model'
-    joblib.dump(cvec, open(filename, 'wb'))
+    # joblib.dump(cvec, open(filename, 'wb'))
     return [X_train, X_test, y_train, y_test]
 
   def train_Model(self, listok):
@@ -59,7 +60,7 @@ class TraffyFondueModel:
     # save the model to disk
     filename = './model/'+'Trainable_model.model'
     # filename = '/Users/80524/Downloads/apache_airflow/model/Trainable_model.model'
-    joblib.dump(model, open(filename, 'wb'))
+    # joblib.dump(model, open(filename, 'wb'))
     score_train = model.score(X_train, y_train)
     score_val = cross_val_score(model,X_train,y_train,cv=5).mean()
     score_test = model.score(X_test,y_test)
