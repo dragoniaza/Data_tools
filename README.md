@@ -12,7 +12,7 @@
 
 4.install requirements.txt with command
 
-``` pip -r requirements.txt ```
+``` pip install -r requirements.txt ```
 
 5.install uvicorn with command
 
