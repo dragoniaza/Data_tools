@@ -5,7 +5,7 @@ import re
 import joblib
 from pythainlp import word_tokenize
 from pythainlp.corpus import thai_stopwords
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, make_scorer, accuracy_score,confusion_matrix, plot_roc_curve
 
 

@@ -68,10 +68,6 @@ class TraffyFondueModel:
     print("Train Accuracy Rate           =",round(score_train,4))
     print("Validataion Accuracy Rate    =",round(score_val,4))
     print("Test Accuracy Rate      =",round(score_test,4))
-    df = pd.read_csv('./data/traffy_fondue_data.csv')
-    # print(type(predicted))
-    # df[predicted] = predicted
-    df.to_csv('./data/traffy_fondue_data.csv', index= False, encoding="UTF-8")
     return predicted
 
   def clean_str(self, sentence):
@@ -99,9 +95,3 @@ class TraffyFondueModel:
     result = d.split("/")
     result = list(filter(None, result))
     return result
-
-logistic_model = RandomForestClassifier(random_state = 42)
-traffy = TraffyFondueModel(logistic_model)
-preprocess = traffy.import_data()
-trained_model = traffy.train_Model(preprocess)
-# print(trained_model)

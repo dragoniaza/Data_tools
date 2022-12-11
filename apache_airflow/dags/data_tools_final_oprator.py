@@ -14,14 +14,14 @@ import datatool_model
 from datatool_model import TraffyFondueModel
 import data_extraction
 from data_extraction import DataExtract
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 
 def extract_data():
   extract = DataExtract('https://www.traffy.in.th/?page_id=27351')
   extract.exportData()
 
 def Model_processing():
-  logistic_model = LogisticRegression(random_state = 42)
+  logistic_model = RandomForestClassifier(random_state = 42)
   traffy = TraffyFondueModel(logistic_model)
   preprocess = traffy.import_data()
   trained_model = traffy.train_Model(preprocess)
