@@ -21,8 +21,7 @@ class TraffyFondueModel:
     self.model = model
 
   def import_data(self):
-    df = pd.read_csv('/Users/80524/Downloads/apache_airflow/data/traffy_fondue_data.csv')
-    # df = pd.read_csv('./data/traffy_fondue_data.csv')
+    df = pd.read_csv('./data/traffy_fondue_data.csv')
     df = df.dropna()
     df['clean_comment'] = df['comment'].map(lambda x: self.clean_str(x))
     df['clean_comment'] = df['clean_comment'].map(lambda x: self.token_word(x))
@@ -39,11 +38,11 @@ class TraffyFondueModel:
     cvec.fit(X_train)
     X_train = cvec.transform(X_train)
     X_test = cvec.transform(X_test)
-    print(X_train.shape)
-    print(X_test.shape)
+    # print(X_train.shape)
+    # print(X_test.shape)
     # save the model to disk
-    # filename = './model/'+'cvec_model.model'
-    filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model'
+    filename = './model/'+'cvec_model.model'
+    # filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model'
     joblib.dump(cvec, open(filename, 'wb'))
     return [X_train, X_test, y_train, y_test]
 
@@ -58,8 +57,8 @@ class TraffyFondueModel:
     y_test = listdata[3]
     model.fit(X_train,y_train)
     # save the model to disk
-    # filename = './model/'+'Trainable_model.model'
-    filename = '/Users/80524/Downloads/apache_airflow/model/Trainable_model.model'
+    filename = './model/'+'Trainable_model.model'
+    # filename = '/Users/80524/Downloads/apache_airflow/model/Trainable_model.model'
     joblib.dump(model, open(filename, 'wb'))
     score_train = model.score(X_train, y_train)
     score_val = cross_val_score(model,X_train,y_train,cv=5).mean()
@@ -69,10 +68,10 @@ class TraffyFondueModel:
     print("Train Accuracy Rate           =",round(score_train,4))
     print("Validataion Accuracy Rate    =",round(score_val,4))
     print("Test Accuracy Rate      =",round(score_test,4))
-    # df = pd.read_csv('./data/traffy_fondue_data.csv')
+    df = pd.read_csv('./data/traffy_fondue_data.csv')
     # print(type(predicted))
     # df[predicted] = predicted
-    # df.to_csv('./data/traffy_fondue_data.csv', index= False, encoding="UTF-8")
+    df.to_csv('./data/traffy_fondue_data.csv', index= False, encoding="UTF-8")
     return predicted
 
   def clean_str(self, sentence):
@@ -105,4 +104,4 @@ logistic_model = RandomForestClassifier(random_state = 42)
 traffy = TraffyFondueModel(logistic_model)
 preprocess = traffy.import_data()
 trained_model = traffy.train_Model(preprocess)
-print(trained_model)
+# print(trained_model)

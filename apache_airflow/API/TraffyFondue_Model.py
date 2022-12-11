@@ -19,12 +19,12 @@ class TraffyFondueModel:
     df = df.dropna()
     df['clean_comment'] = df['comment'].map(lambda x: self.clean_str(x))
     df['clean_comment'] = df['clean_comment'].map(lambda x: self.token_word(x))
-    print(df.to_markdown())
+    # print(df.to_markdown())
     # cvec = CountVectorizer(analyzer= 'word')
     # cvec.fit(df)
     # load the model from disk
-    # filename = './model/'+'cvec_model.model'
-    filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model'
+    filename = './model/'+'cvec_model.model'
+    # filename = '/Users/80524/Downloads/apache_airflow/model/cvec_model.model'
     cvec_model = joblib.load(open(filename, 'rb'))
     X_test = []
     X_test = cvec_model.transform(df['clean_comment'])
@@ -35,11 +35,11 @@ class TraffyFondueModel:
     return logistic
     
   def classifier_model(self, model, X_test):
-    # filename = './model/'+'Trainable_model.model'
-    filename = '/Users/80524/Downloads/apache_airflow/model/Trainable_model.model'
+    filename = './model/'+'Trainable_model.model'
+    # filename = '/Users/80524/Downloads/apache_airflow/model/Trainable_model.model'
     loaded_model = joblib.load(open(filename, 'rb'))
     predicted = loaded_model.predict(X_test)
-    print("\n\n",model,'\n')
+    # print("\n\n",model,'\n')
     # df = pd.read_csv('./data/traffy_fondue_data.csv')
     # print(type(predicted))
     # df[predicted] = predicted

@@ -66,6 +66,7 @@ x-airflow-common:
     - ./spark:/opt/spark
     - ./data:/opt/airflow/data
     - ./model:/opt/airflow/model
+    - ./api:/opt/airflow/api
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -278,6 +279,14 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+
+  model-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: model-api
+    ports:
+      - "5500:5500"
 
 volumes:
   postgres-db-volume:
