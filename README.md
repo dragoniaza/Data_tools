@@ -20,6 +20,6 @@
 
 6.run main.py python file 
 
-``` python main.py ```
+``` uvicorn main:app --reload --port 5500 --host 0.0.0.0 ```
 
 7.you can access our api from post method on port 5500
